@@ -1,0 +1,42 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+ul {
+  font-family: 'Courier New', Courier, monospace;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0a90d9;
+  
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    margin: 8px;
+    color: white;
+}
+
+li a:hover {
+    background-color: aliceblue;
+    color: #1b06ff;
+}
+
+li a:hover:not(.active) {
+    background-color: rgba(19, 141, 255, 0.571);
+  }
+
+.active {
+    background-color: rgb(21, 212, 212);
+  }
+
+li:last-child {
+    float: right;
+    
+}
